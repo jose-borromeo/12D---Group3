@@ -1,0 +1,10 @@
+ion-content {
+  background: linear-gradient(to bottom,#ffdde1,#ffdde1);
+  background: linear-gradient(to right, #ffdde1, #ffdde1);
+
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
