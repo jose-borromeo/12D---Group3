@@ -21,7 +21,7 @@ export class AboutPage {
   compute() {
     this.TotalInterestPayable = ((this.BalanceTransferAmount*1.50/100)*this.PaymentTerms);
 
-    this.TotalAmountPayable = (this.BalanceTransferAmount+this.TotalInterestPayable);
+    this.TotalAmountPayable = (+this.TotalInterestPayable+ +this.BalanceTransferAmount);
 
     this.MonthlyPayment = (this.TotalAmountPayable/this.PaymentTerms);
   }
